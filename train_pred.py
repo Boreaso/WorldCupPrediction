@@ -11,6 +11,15 @@ if __name__ == '__main__':
     preprocess_dir = os.path.join(os.getcwd(), 'data', 'preprocess')
     simulate_dir = os.path.join(os.getcwd(), 'data', 'simulate')
 
+    if not os.path.exists(ckpt_dir):
+        os.makedirs(ckpt_dir)
+    if not os.path.exists(input_dir):
+        os.makedirs(input_dir)
+    if not os.path.exists(preprocess_dir):
+        os.makedirs(preprocess_dir)
+    if not os.path.exists(simulate_dir):
+        os.makedirs(simulate_dir)
+
     train_df = read_csv(os.path.join(preprocess_dir, 'train_dataset.csv'))
     train_y = train_df.outcome
     train_x = train_df.drop(columns=['outcome', 'date', 'team1', 'team2'])

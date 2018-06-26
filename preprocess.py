@@ -491,6 +491,11 @@ if __name__ == '__main__':
     _input_dir = os.path.join(os.getcwd(), 'data', 'input')
     _preprocess_dir = os.path.join(os.getcwd(), 'data', 'preprocess')
 
+    if not os.path.exists(_input_dir):
+        os.makedirs(_input_dir)
+    if not os.path.exists(_preprocess_dir):
+        os.makedirs(_preprocess_dir)
+
     # Clean up
     _matches = read_csv(os.path.join(_input_dir, 'matches.csv'))
     _matches = clean_up(_matches)

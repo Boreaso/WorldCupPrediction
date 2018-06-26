@@ -109,6 +109,11 @@ if __name__ == '__main__':
     input_dir = os.path.join(os.getcwd(), 'data', 'input')
     simulate_dir = os.path.join(os.getcwd(), 'data', 'simulate')
 
+    if not os.path.exists(input_dir):
+        os.makedirs(input_dir)
+    if not os.path.exists(simulate_dir):
+        os.makedirs(simulate_dir)
+
     schedule = loadCsv(os.path.join(input_dir, 'wc2018schedule.csv'), Match)
     predictions = loadCsv(os.path.join(simulate_dir, 'wc2018staticPredictions.csv'), Prediction)
     teams = loadCsv(os.path.join(input_dir, 'wc2018_qualified.csv'), Team)
