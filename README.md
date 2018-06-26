@@ -17,4 +17,8 @@ The project was written by Python. To run the code,you should install the follow
   * python simulate.py      : Do simulation.
   * python visualization.py : Visual the results of preprocess(uncomment some code) and prediction.
   
-Detail can be found on Sorin's [Tutorial](https://notebooks.azure.com/sorinpeste/libraries/footballpred/html/worldcup.ipynb), and the [R code](https://github.com/neaorin/PredictTheWorldCup).
+## Result
+
+  ![prediction results](https://github.com/Boreaso/WorldCupPrediction/raw/master/images/)
+  
+More detail can be found in Sorin's [Tutorial](https://notebooks.azure.com/sorinpeste/libraries/footballpred/html/worldcup.ipynb), and the [R code](https://github.com/neaorin/PredictTheWorldCup).
