@@ -5,11 +5,13 @@ This is a practice project about predicting the FIFA World Cup by using Machine 
 ## Dependencies
 The project was written by Python. To run the code,you should install the following packages:
   
-  * python>=3.6
   * numpy==1.14.2
   * pandas==0.23.0
   * plotnine==0.3.0
+  * statsmodels==0.9.0
   * sklearn==0.19.1
+  * seaborn==0.8.1
+  * missingno==0.4.0
 
 ## Usage
   * python preprocess.py    : Do some process with the original data.
