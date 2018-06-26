@@ -19,6 +19,6 @@ The project was written by Python. To run the code,you should install the follow
   
 ## Result
 
-  ![prediction results](https://github.com/Boreaso/WorldCupPrediction/raw/master/images/)
+  ![prediction results](https://github.com/Boreaso/WorldCupPrediction/raw/master/images/predict_results.png)
   
 More detail can be found in Sorin's [Tutorial](https://notebooks.azure.com/sorinpeste/libraries/footballpred/html/worldcup.ipynb), and the [R code](https://github.com/neaorin/PredictTheWorldCup).
